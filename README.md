@@ -14,7 +14,7 @@ KonfigLoaderGo is a Go library for loading configuration files in YAML format an
 Install `KonfigLoaderGo` using the go get command:
 
 ```bash
-go get github.com/yourusername/KonfigLoaderGo
+go get github.com/vodyanoyysh/KonfigLoaderGo
 ```
 
 ### usage
@@ -30,11 +30,11 @@ import (
 type Config struct {
 	Database struct {
 		Postgresql struct {
-			Host     string `json:"host"`
-			Port     int    `json:"port"`
-			User     string `json:"user"`
-			Password string `json:"password"`
-			Database string `json:"database"`
+			Host     string `yaml:"host"`
+			Port     int    `yaml:"port"`
+			User     string `yaml:"user"`
+			Password string `yaml:"password"`
+			Database string `yaml:"database"`
 		} `json:"postgresql"`
 	} `json:"database"`
 }
