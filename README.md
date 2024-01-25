@@ -24,7 +24,7 @@ go get github.com/vodyanoyysh/KonfigLoaderGo
 package main
 import (
 	"fmt"
-	"github.com/vodyanoy420/KonfigLoaderGo"
+	"github.com/vodyanoyysh/KonfigLoaderGo"
 )
 
 type Config struct {
