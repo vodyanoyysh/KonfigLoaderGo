@@ -1,4 +1,4 @@
-module github.com/vodyanoy420/KonfigLoaderGo
+module github.com/vodyanoyysh/KonfigLoaderGo
 
 go 1.21.5
 
